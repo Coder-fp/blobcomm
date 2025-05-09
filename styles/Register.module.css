@@ -1,4 +1,5 @@
 /* styles/Register.module.css */
+
 .container {
   max-width: 600px;
   margin: 2rem auto;
@@ -16,4 +17,72 @@
   margin-bottom: 2rem;
 }
 
-/* Other styles remain unchanged */
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.logout {
+  padding: 0.5rem 1rem;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #ff6b81;
+}
+
+.userList {
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.statusBtn,
+.selected {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.statusBtn:hover,
+.selected {
+  background-color: #0070f3;
+  color: white;
+  border: 1px solid #0070f3;
+}
+
+.submit {
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.submit:hover {
+  background-color: #005bb5;
+}
