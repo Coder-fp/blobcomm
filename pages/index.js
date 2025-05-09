@@ -1,6 +1,6 @@
-// pages/index.js
-import { useState } from "react";
+  import { useState } from "react";
 import { useRouter } from "next/router";
+import styles from "../styles/Register.module.css";  // Import your CSS Module for styles
 
 export default function Login() {
   const [password, setPassword] = useState("");
@@ -17,38 +17,45 @@ export default function Login() {
   };
 
   return (
-    <div style={{
-      minHeight: "100vh", display: "flex", flexDirection: "column",
-      justifyContent: "center", alignItems: "center", backgroundColor: "#f7f7f7"
-    }}>
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#f7f7f7",
+      }}
+    >
       <form
         onSubmit={handleLogin}
-        style={{
-          background: "#fff",
-          padding: "2rem",
-          borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-          width: "300px"
-        }}
+        className={styles.container} // Using your CSS Module class here
       >
-        <h2 style={{ marginBottom: "1rem", textAlign: "center" }}>Login</h2>
+        <h2 className={styles.header}>Login</h2> {/* Use the header class from Register.module.css */}
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Enter password"
           style={{
-            width: "100%", padding: "0.5rem", marginBottom: "1rem",
-            border: "1px solid #ccc", borderRadius: "8px"
+            width: "100%",
+            padding: "0.5rem",
+            marginBottom: "1rem",
+            border: "1px solid #ccc",
+            borderRadius: "8px",
           }}
         />
         {error && <p style={{ color: "red", marginBottom: "1rem" }}>{error}</p>}
         <button
           type="submit"
           style={{
-            width: "100%", padding: "0.5rem",
-            backgroundColor: "#0070f3", color: "#fff",
-            border: "none", borderRadius: "8px", cursor: "pointer"
+            width: "100%",
+            padding: "0.5rem",
+            backgroundColor: "#0070f3",
+            color: "#fff",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
           }}
         >
           Enter
