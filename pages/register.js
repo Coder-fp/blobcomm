@@ -1,4 +1,3 @@
-// Updated Register.js with new users and styled layout
 import { useState } from "react";
 import { useRouter } from "next/router";
 import styles from "../styles/Register.module.css";
@@ -45,7 +44,9 @@ export default function Register() {
     <div className={styles.container}>
       <div className={styles.header}>
         <h1 className={styles.title}>Attendance Register</h1>
-        <button className={styles.logout} onClick={() => router.push("/")}>Logout</button>
+        <button className={styles.logout} onClick={() => router.push("/")}>
+          Logout
+        </button>
       </div>
 
       <div className={styles.userList}>
