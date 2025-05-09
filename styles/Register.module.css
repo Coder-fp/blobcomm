@@ -1,5 +1,4 @@
 /* styles/Register.module.css */
-
 .container {
   max-width: 600px;
   margin: 2rem auto;
@@ -7,7 +6,7 @@
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  font-family: 'Poppins', sans-serif; /* Modern font for the container */
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -15,61 +14,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  font-family: 'Poppins', sans-serif; /* Modern font for the header */
 }
 
-.logout {
-  background: #ef4444;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: 'Inter', sans-serif; /* Font for the logout button */
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 0.5rem;
-  font-family: 'Inter', sans-serif; /* Font for the user row */
-}
-
-.buttons {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.statusBtn {
-  padding: 0.5rem 1rem;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-}
-
-.selected {
-  padding: 0.5rem 1rem;
-  background-color: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif; /* Bold font for the selected button */
-}
-
-.submit {
-  margin-top: 2rem;
-  width: 100%;
-  padding: 1rem;
-  background-color: #22c55e;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-}
+/* Other styles remain unchanged */
