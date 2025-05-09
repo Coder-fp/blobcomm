@@ -1,5 +1,5 @@
 // pages/_app.tsx
-import '../styles/globals.css';  // Import the global CSS file
+import '../styles/globals.css';  // Import global styles
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
