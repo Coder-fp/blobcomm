@@ -1,0 +1,29 @@
+# System files
+Thumbs.db
+.DS_Store
+ntuser.dat
+*.log
+
+# Node modules
+node_modules/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system and user-specific files
+AppData/
+Downloads/
+OneDrive/
+Favorites/
+Saved Games/
+Contacts/
+Links/
+Music/
+Videos/
+.chocolatey/
+.docker/
+
+# Others you don't want to track
+*.bak
+.npm/

@@ -1,0 +1,3 @@
+{
+  "/api/sendWebhook": "pages/api/sendWebhook.js"
+}

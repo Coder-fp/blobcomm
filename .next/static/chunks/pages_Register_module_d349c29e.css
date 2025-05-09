@@ -1,0 +1,57 @@
+/* [project]/pages/Register.module.css [client] (css) */
+.Register-module__jj1o8G__container {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.Register-module__jj1o8G__title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.Register-module__jj1o8G__userStatus {
+  margin: 20px 0;
+}
+
+.Register-module__jj1o8G__statusContainer {
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.Register-module__jj1o8G__statusButton {
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color .3s;
+}
+
+.Register-module__jj1o8G__statusButton:hover {
+  background-color: #f0f0f0;
+}
+
+.Register-module__jj1o8G__selected {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.Register-module__jj1o8G__submitButton, .Register-module__jj1o8G__logoutButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.Register-module__jj1o8G__submitButton:hover, .Register-module__jj1o8G__logoutButton:hover {
+  background-color: #0056b3;
+}
+
+
+/*# sourceMappingURL=pages_Register_module_d349c29e.css.map*/
